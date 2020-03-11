@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/profile_image_id"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".Profile_image">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/profile_image"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/ic_action_avatar"
+        android:id="@+id/choose_profile_images"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp"
+        />
+
+    <Button
+        android:textColorHint="@color/white"
+        android:background="@drawable/strock"
+        android:id="@+id/button3111"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="183dp"
+        android:hint="Choose Image Teacher" />
+
+    <ProgressBar
+        android:layout_height="10dp"
+        android:visibility="visible"
+        android:indeterminateDuration="10"
+        android:indeterminateBehavior="repeat"
+        android:progressBackgroundTint="#208afa"
+        android:progressBackgroundTintMode="multiply"
+        android:minHeight="24dip"
+        android:maxHeight="24dip"
+        android:id="@+id/uploadBar"
+        android:indeterminateOnly="true"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+
+</RelativeLayout>

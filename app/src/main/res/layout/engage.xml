@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/midle"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_marginBottom="10dp"
+        android:background="@color/midle"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/justifu_jdhasdo"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:text="Before going to tutor section, you need to update your profile"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/quantum_ic_clear_white_24"
+            android:layout_alignParentRight="true" />
+
+        <AutoCompleteTextView
+            android:id="@+id/textView_auto"
+            android:paddingLeft="20dp"
+            android:hint="Enter Institute Name"
+            android:background="@drawable/home_edittext"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/justifu_jdhasdo"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+        <LinearLayout
+            android:id="@+id/fghj"
+            android:weightSum="2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal"
+
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView_auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+            <TextView
+                android:layout_marginRight="3dp"
+                android:gravity="center"
+                android:layout_weight="0.25"
+                android:text="+88"
+                android:background="@drawable/home_edittext"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp" />
+
+            <EditText
+                android:inputType="phone"
+                android:id="@+id/edit_mobile_no"
+                android:paddingLeft="16dp"
+                android:layout_weight="1.75"
+                android:textSize="20sp"
+                android:background="@drawable/home_edittext"
+                android:hint="Enter Your phone no"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp" />
+
+
+
+        </LinearLayout>
+
+        <Button
+
+            android:id="@+id/reg_button67"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fghj"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_for_home"
+            android:padding="10dp"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true" />
+
+        <ProgressBar
+            android:progressTint="#ffffff"
+            android:visibility="invisible"
+            android:id="@+id/progressBar30"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_auto"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

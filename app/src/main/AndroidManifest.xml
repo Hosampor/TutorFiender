@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tutor.finder1">
+
+    <uses-sdk tools:overrideLibrary="com.mancj.materialsearchbar" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name=".OfflineCapability.BDAd"
+        android:allowBackup="true"
+        android:icon="@mipmap/studentsonclass"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".show_comment"></activity>
+        <activity android:name=".commentStudent" />
+        <activity android:name=".Student_Details_Activity" />
+        <activity android:name=".Manage_2" />
+        <activity android:name=".Profile_image_teacher" />
+        <activity android:name=".AddActivityTeacher" />
+        <activity android:name=".Home_2" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0"
+            tools:replace="android:value" />
+
+        <activity android:name=".PermisionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddActivity"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Manage"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".TutorAccountActivity"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".Male" />
+        <activity android:name=".Female" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Profile_image" />
+        <activity android:name=".Tutor_details_activity" />
+        <activity android:name=".CommentS" />
+        <activity android:name=".TeacherList" />
+        <activity android:name=".StudentList" />
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_opacity">#33000000</color>
+    <color name="fff">#5858FA</color>
+    <color name="ripple_color">#f816a463</color>
+    <color name="signin">#1fbad6</color>
+    <color name="resister">#83838c</color>
+    <color name="light_gray">#d3d3d3</color>
+    <color name="gray">#423F3F</color>
+    <color name="colorPrimary">#5BC997</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="colorPrimaryDark">#5BC997</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#3498DB</color>
+    <color name="deepblue">#00BFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="skyblue">#87CEEB</color>
+    <color name="black">#000000</color>
+    <color name="start_color">#CCCCCC</color>
+    <color name="midle">#3E9E8B</color>
+    <color name="field">#B0B0B0</color>
+    <color name="tutor">#FAFAFA</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endtblue">#0bcce6</color>
+    <color name="graylight">#fafafa</color>
+    <color name="red">#d40f0f</color>
+    <color name="address">#2F7092</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="headings">#3797CF</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="ggggg">#24ACEF</color>
+    <color name="gradStart">#63C9FF</color>
+</resources>

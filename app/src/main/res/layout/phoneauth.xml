@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:background="@color/midle"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+
+        android:background="@color/midle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/zxc"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="LOG IN with Phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@+id/zxc"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/zxc1"
+            android:textColor="@color/white"
+            android:text="Please use your phone no to login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_below="@+id/zxc1"
+            android:paddingLeft="18dp"
+            android:paddingStart="18dp"
+            android:paddingRight="18dp"
+            android:background="@drawable/home_edittext"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/edit_phoneno_user"
+            android:inputType="phone"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:hint="Enter Mobile No"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ProgressBar
+            android:layout_marginTop="18dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/edit_phoneno_user"
+            android:visibility="invisible"
+            android:id="@+id/progress1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:paddingLeft="18dp"
+            android:paddingStart="18dp"
+            android:paddingRight="18dp"
+            android:background="@drawable/home_edittext"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/progress1"
+            android:id="@+id/edit_code"
+
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:hint="Enter Code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ProgressBar
+            android:layout_marginTop="18dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/edit_code"
+            android:visibility="invisible"
+            android:id="@+id/progress2"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/progress2"
+            android:id="@+id/btn_send_varification"
+            android:textColor="@color/white"
+            android:text="Send Varification"
+            android:background="@drawable/button_for_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/edit_phoneno_user"
+            android:layout_alignRight="@+id/edit_phoneno_user"
+            android:layout_alignTop="@+id/zxc"
+            app:srcCompat="@drawable/ic_dialog_close_dark" />
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

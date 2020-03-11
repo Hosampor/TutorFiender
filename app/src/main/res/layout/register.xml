@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardElevation="10dp"
+
+    android:layout_height="wrap_content">
+    <RelativeLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+
+            android:id="@+id/hhhhhh"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_spinner11">
+            <Spinner
+                android:id="@+id/spin_reg"
+                android:entries="@array/register"
+                style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+
+                />
+        </RelativeLayout>
+        <EditText
+            android:layout_below="@+id/hhhhhh"
+
+            android:paddingLeft="18dp"
+            android:paddingStart="18dp"
+            android:paddingRight="18dp"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:id="@+id/edit_name1111"
+            android:background="@drawable/home_edit"
+            android:inputType="text"
+            android:hint="Enter Your Name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+        <AutoCompleteTextView
+            android:layout_below="@+id/edit_name1111"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="18dp"
+            android:paddingStart="18dp"
+            android:paddingRight="18dp"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:id="@+id/edit_institute_name"
+            android:background="@drawable/home_edit"
+            android:inputType="text"
+            android:hint="Enter Your Institute Name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+        <EditText
+            android:layout_below="@+id/edit_institute_name"
+
+            android:layout_marginTop="10dp"
+            android:paddingLeft="18dp"
+            android:paddingStart="18dp"
+            android:paddingRight="18dp"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:id="@+id/edit_class"
+            android:background="@drawable/home_edit"
+            android:inputType="text"
+            android:hint="What class do you read in?"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+
+        <EditText
+            android:layout_below="@+id/edit_class"
+
+            android:layout_marginTop="10dp"
+            android:paddingLeft="18dp"
+            android:paddingStart="18dp"
+            android:paddingRight="18dp"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:id="@+id/edit_mobile"
+            android:background="@drawable/home_edit"
+            android:inputType="phone"
+            android:hint="Enter Your Mobile No"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+
+
+        <EditText
+            android:layout_below="@+id/edit_mobile"
+
+            android:layout_marginTop="10dp"
+            android:paddingLeft="18dp"
+            android:textColorHint="@color/white"
+            android:textSize="18dp"
+            android:background="@drawable/home_edit"
+            android:id="@+id/edit_email1111"
+            android:inputType="textEmailAddress"
+            android:hint="Enter your Email"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+        <EditText
+            android:layout_below="@+id/edit_email1111"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="18dp"
+            android:textColorHint="@color/white"
+            android:textSize="18dp"
+            android:background="@drawable/home_edit"
+            android:id="@+id/edit_password1111"
+            android:inputType="textPassword"
+            android:hint="Set a Password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+        <EditText
+            android:layout_below="@+id/edit_password1111"
+
+            android:layout_marginTop="10dp"
+            android:paddingLeft="18dp"
+            android:textColorHint="@color/white"
+            android:textSize="18dp"
+            android:background="@drawable/home_edit"
+            android:id="@+id/edit_conpassword1111"
+            android:inputType="textPassword"
+            android:hint="Enter Confirm Password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/edit_conpassword1111"
+
+            android:layout_marginTop="10dp"
+            android:paddingLeft="18dp"
+            android:textColorHint="@color/white"
+            android:textSize="18dp"
+            android:background="@drawable/home_edit"
+            android:id="@+id/edit_day"
+            android:inputType="textCapWords"
+            android:hint="Which day you want to read/teach"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

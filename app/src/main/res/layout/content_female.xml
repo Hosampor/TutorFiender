@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/snack_female"
+    android:background="@color/tutor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tutor.finder1.Home"
+    tools:showIn="@layout/app_bar_female">
+<android.support.v7.widget.RecyclerView
+
+    android:id="@+id/recyclerview_all_female"
+    android:background="@color/tutor"
+    android:scrollbars="vertical"
+    android:layout_marginTop="65dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.v7.widget.RecyclerView>
+    <ProgressBar
+        android:id="@+id/loadmore_female"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

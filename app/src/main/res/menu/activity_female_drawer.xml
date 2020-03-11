@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="Add Tutor" />
+
+    </group>
+
+    <item android:title="Your Account">
+        <menu>
+            <item
+                android:icon="@drawable/icon"
+                android:id="@+id/nav_share"
+                android:title="Your Ads" />
+        </menu>
+    </item>
+    <item android:title="Search">
+        <menu>
+            <item
+                android:id="@+id/home_female_go_for_search"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="Search all male and female tutors" />
+            <item
+                android:id="@+id/malecvbn"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="Search only Male Tutor" />
+            <item android:id="@+id/googlemap"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="Search by Google Map"/>
+        </menu>
+    </item>
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+
+
+
+
+</menu>

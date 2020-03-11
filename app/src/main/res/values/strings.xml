@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Tutor Finder</string>
+    <string name="title_activity_home">Home</string>
+    <string name="wifi_text">Wow.You are connected with wifi or mobile data</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <array name="subject">
+        <item>Bangla</item>
+        <item>Math</item>
+        <item>English</item>
+    </array>
+    <array name="select">
+        <item>Select One</item>
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+    <array name="login">
+        <item>Login As</item>
+        <item>Student</item>
+        <item>Teacher</item>
+    </array>
+    <array name="register">
+        <item>Register As</item>
+        <item>Student</item>
+        <item>Teacher</item>
+    </array>
+
+
+    <integer name="swing_anim_time">750</integer>
+
+
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+    <string name="signin">সাইন ইন</string>
+    <string name="dsdsd">একাউন্ট না থাকলে নতুন একাউন্ট ক্রিয়েট করে নিন</string>
+    <string name="register">রেজিষ্টার</string>
+    <string name="dada">লগ আউট</string>
+    <string name="add">তথ্য যোগ করুন</string>
+    <string name="namedf">Name:</string>
+    <string name="ddasdasd">image</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="institute_namedsd">Institute Name:</string>
+    <string name="institute_namedsda">Institute Name</string>
+    <string name="subject">Subject :</string>
+    <string name="subject_namesdsas">Subject Name</string>
+    <string name="gender">Gender :</string>
+    <string name="genderdasdasdas">Gender</string>
+    <string name="age">Age :</string>
+    <string name="agezxcd">Age</string>
+    <string name="interested_condition">Interested Condition</string>
+    <string name="interested_areas">Interested Areas :</string>
+    <string name="area">Area</string>
+    <string name="interested_classes">Interested Classes :</string>
+    <string name="classess">Classess</string>
+    <string name="interested_subjects">Interested Subjects :</string>
+    <string name="subjects">Subjects</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="housing_road_name">Housing/Road Name :</string>
+    <string name="housing_namedsda">Housing Name</string>
+    <string name="contact_nodasdasd">Contact No :</string>
+    <string name="contactdasdasddd">Contact</string>
+    <string name="click_to_post"><u>Click here to post</u></string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="fgfg">Varify Code</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_institute_name">Enter Your Institute Name</string>
+    <string name="enter_your_age">Enter Your Age</string>
+    <string name="enter_subject_name">Enter Subject Name</string>
+    <string name="enter_interested_area">Enter Interested Area</string>
+    <string name="enter_interested_class">Enter Interested Class</string>
+    <string name="enter_interested_subject">Enter Interested Subject</string>
+    <string name="enter_housing_or_road_name">Enter Housing or Road Name</string>
+    <string name="likes_account">Likes</string>
+
+    <string name="followers">Followers</string>
+
+    <string name="engaged">Engaged</string>
+    <string name="_0">0</string>
+    <string name="taizul_islam">Taizul Islam</string>
+    <string name="joey_tribbiani">Joey Tribbiani</string>
+    <string name="new_york_usa">new york, usa</string>
+    <string name="this_is_an_tutor_account_image">This is an tutor account image</string>
+    <string name="_453k">453K</string>
+    <string name="likes">Likes</string>
+    <string name="engagedsdsadsa">Engaged</string>
+    <string name="followerscdd">followers</string>
+    <string name="your_biographyasdasd">Your Biography</string>
+    <string name="sdasasdasdsad">this is an arrow</string>
+    <string name="engaged_studentssdsdf">Engaged Students</string>
+    <string name="this_is_an_arrow">this is an arrow</string>
+    <string name="textview111">TextView</string>
+    <string name="hjghghgghhjhgg">...</string>
+    <string name="choose_onefsdfds">Choose One</string>
+    <string name="dadsadasdsa">Taka</string>
+    <string name="title_activity_tolet_direction">Map</string>
+    <string name="title_activity_map_location_tolet">Map</string>
+    <string name="xssxxsx">41.385064,2.173403</string>
+    <string name="title_activity_maps2">Map</string>
+
+</resources>

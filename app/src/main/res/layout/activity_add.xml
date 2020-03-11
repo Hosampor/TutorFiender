@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/add_poratechai_layut"
+    android:layout_height="match_parent"
+    tools:context="com.example.tutor.finder1.AddActivity">
+    <include layout="@layout/toolbar"
+        android:id="@+id/add_toolbar"/>
+
+    <ScrollView
+        android:layout_marginBottom="?actionBarSize"
+        android:layout_below="@+id/add_toolbar"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingBottom="7dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/bg_spinner">
+                <Spinner
+                    android:id="@+id/spin"
+                    android:entries="@array/select"
+                    style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+
+                    />
+            </RelativeLayout>
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:paddingLeft="7dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:inputType="text"
+                android:textColorHint="@android:color/black"
+                android:id="@+id/edit_addage"
+                android:hint="@string/enter_your_age"
+                app:met_baseColor="@color/black"
+                app:met_floatingLabel="highlight"
+                android:layout_width="match_parent"
+                app:met_primaryColor="@color/black"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content"
+                android:paddingStart="7dp"
+                tools:ignore="RtlSymmetry" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:paddingLeft="7dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:inputType="text"
+                android:textColorHint="@android:color/black"
+                android:id="@+id/edit_addsubject"
+                android:hint="@string/enter_subject_name"
+                app:met_baseColor="@color/black"
+                app:met_floatingLabel="highlight"
+                android:layout_width="match_parent"
+                app:met_primaryColor="@color/black"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content"
+                android:paddingStart="7dp"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="17sp"
+                android:textColor="@color/gray"
+                android:text="Interested Road/Area where you want to teach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:paddingLeft="7dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:inputType="text"
+                android:textColorHint="@android:color/black"
+                android:id="@+id/edit_interested_area"
+                android:hint="@string/enter_interested_area"
+                app:met_baseColor="@color/black"
+                app:met_floatingLabel="highlight"
+                android:layout_width="match_parent"
+                app:met_primaryColor="@color/black"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="17sp"
+                android:textColor="@color/gray"
+                android:text="Which classes student you will like to teach?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:paddingLeft="7dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:inputType="text"
+                android:textColorHint="@android:color/black"
+                android:id="@+id/edit_interested_class"
+                android:hint="@string/enter_interested_class"
+                app:met_baseColor="@color/black"
+                app:met_floatingLabel="highlight"
+                android:layout_width="match_parent"
+                app:met_primaryColor="@color/black"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="Which subjects would you like to teach?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:paddingLeft="7dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:inputType="text"
+                android:textColorHint="@android:color/black"
+                android:id="@+id/edit_interested_subject"
+                android:hint="@string/enter_interested_subject"
+                app:met_baseColor="@color/black"
+                app:met_floatingLabel="highlight"
+                android:layout_width="match_parent"
+                app:met_primaryColor="@color/black"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="Enter Housing or Road name there you live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <AutoCompleteTextView
+
+                android:layout_marginTop="7dp"
+                android:background="@drawable/bg_spinner"
+                android:paddingLeft="7dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:inputType="text"
+                android:textColorHint="@color/gray"
+                android:id="@+id/edit_housingName"
+                android:hint="@string/enter_housing_or_road_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:visibility="gone"
+                android:focusable="false"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:id="@+id/edit_latitute"
+                app:met_baseColor="@color/white"
+                app:met_floatingLabel="highlight"
+                android:layout_width="match_parent"
+                app:met_primaryColor="@color/white"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:visibility="gone"
+                android:focusable="false"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:id="@+id/edit_longitute"
+                app:met_baseColor="@color/white"
+                app:met_floatingLabel="highlight"
+                android:layout_width="match_parent"
+                app:met_primaryColor="@color/white"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="Your Contact Information "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:paddingLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:hint="Please enter your valid email"
+                android:id="@+id/valid_email"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                app:met_baseColor="@color/black"
+                app:met_floatingLabel="highlight"
+                android:layout_width="match_parent"
+                app:met_primaryColor="@color/black"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+        <Button
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/strock"
+            android:id="@+id/save_now"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Save"
+            android:textColor="@color/white"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

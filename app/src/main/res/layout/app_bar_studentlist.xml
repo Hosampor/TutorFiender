@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tutor.finder1.StudentList">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_studentlist" />
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:weightSum="6"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/back_imageview_st"
+            android:layout_weight="1"
+            android:background="@drawable/ic_arrow_back_white_24dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp" />
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            android:layout_weight="5"
+            android:id="@+id/searchBar_st"
+            style="@style/MaterialSearchBarLight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_anchor="@+id/include"
+            app:mt_placeholder="BD Student List" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
